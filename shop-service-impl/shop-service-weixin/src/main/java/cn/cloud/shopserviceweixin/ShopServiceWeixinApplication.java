@@ -1,15 +1,21 @@
-package cn.cloud.shopservicemember;
+package cn.cloud.shopserviceweixin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
 
+/**
+ * @program: shop-parent
+ * <p>
+ * 胖哥
+ * @description: 服务者
+ * @author: yueLi
+ * @create: 2020-04-02 11:37
+ **/
 @SpringBootApplication
 @EnableEurekaClient
-@EnableFeignClients
-public class ShopServiceMemberApplication {
+public class ShopServiceWeixinApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ShopServiceMemberApplication.class,args);
+        SpringApplication.run(ShopServiceWeixinApplication.class,args);
     }
 }
