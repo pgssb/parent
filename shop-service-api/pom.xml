@@ -14,14 +14,12 @@
     <modules>
         <module>shop-service-api-weixin</module>
         <module>shop-service-api-member</module>
-        <module>shop-service-api-sso</module>
         <module>shop-service-api-item</module>
         <module>shop-service-api-search</module>
         <module>shop-service-api-pay</module>
         <module>shop-service-api-order</module>
-        <module>shop-service-api-spike</module>
-        <module>shop-service-api-sso</module>
-        <module>shop-service-api-spike</module>
+        <module>shop-service-sso-api</module>
+        <module>shop-service-spike-api</module>
     </modules>
 
 

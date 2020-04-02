@@ -20,8 +20,6 @@
         <module>shop-service-pay</module>
         <module>shop-service-order</module>
         <module>shop-service-spike</module>
-        <module>shop-service-sso</module>
-        <module>shop-service-spike</module>
     </modules>
 
     <dependencies>

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shop-service-api-sso</artifactId>
+    <artifactId>shop-service-spike-api</artifactId>
 
 
 </project>

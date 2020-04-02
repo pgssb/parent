@@ -6,34 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shop-service-api-spike" />
         <module name="shop-service-weixin" />
-        <module name="shop-portal-sso" />
         <module name="shop-common-core" />
-        <module name="shop-service-spike" />
+        <module name="shop-basics-springcloud-zuul" />
         <module name="shop-service-api-member" />
-        <module name="shop-service-api-sso" />
+        <module name="shop-service-spike-api" />
         <module name="shop-basics-springcloud-eureka" />
         <module name="shop-portal-cms" />
+        <module name="shop-service-order" />
         <module name="shop-service-api-order" />
-        <module name="shop-service-sso" />
+        <module name="shop-service-sso-api" />
+        <module name="shop-basics-codingapi- ZipKin" />
         <module name="shop-service-member" />
         <module name="shop-service-api-search" />
-        <module name="shop-portal-web" />
-        <module name="shop-service-pay" />
+        <module name="shop-service-spike" />
         <module name="shop-basics-xuxueli-xxljob" />
-        <module name="shop-portal-spike" />
+        <module name="shop-service-api-weixin" />
         <module name="shop-service-tem" />
         <module name="shop-portal-search" />
         <module name="shop-basics-apollo-config-server" />
         <module name="shop-service-search" />
         <module name="shop-service-api-item" />
-        <module name="shop-service-api-weixin" />
+        <module name="shop-portal-sso" />
+        <module name="shop-service-sso" />
+        <module name="shop-portal-spike" />
         <module name="shop-basics-codingapi-lcn" />
-        <module name="shop-service-order" />
-        <module name="shop-basics-codingapi- ZipKin" />
+        <module name="shop-service-pay" />
         <module name="shop-service-api-pay" />
-        <module name="shop-basics-springcloud-zuul" />
+        <module name="shop-portal-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -68,9 +68,12 @@
       <module name="shop-service-pay" target="1.8" />
       <module name="shop-service-search" target="1.8" />
       <module name="shop-service-spike" target="1.8" />
+      <module name="shop-service-spike-api" target="1.8" />
       <module name="shop-service-sso" target="1.8" />
+      <module name="shop-service-sso-api" target="1.8" />
       <module name="shop-service-tem" target="1.8" />
       <module name="shop-service-weixin" target="1.8" />
+      <module name="sssss" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -106,9 +109,12 @@
       <module name="shop-service-pay" options="-parameters" />
       <module name="shop-service-search" options="-parameters" />
       <module name="shop-service-spike" options="-parameters" />
+      <module name="shop-service-spike-api" options="-parameters" />
       <module name="shop-service-sso" options="-parameters" />
+      <module name="shop-service-sso-api" options="-parameters" />
       <module name="shop-service-tem" options="-parameters" />
       <module name="shop-service-weixin" options="-parameters" />
+      <module name="sssss" options="-parameters" />
     </option>
   </component>
 </project>
