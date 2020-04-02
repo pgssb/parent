@@ -1,0 +1,12 @@
+ server:
+   port: 8100
+
+ eureka:
+   instance:
+     ###注册到eurekaip地址
+     hostname: localhost
+   client:
+     service-url:
+       defaultZone: http//${eureka.instance.hostname}:${server.port}/eureka/
+     register-with-eureka: false
+     fetch-registry: false
