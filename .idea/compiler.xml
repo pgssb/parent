@@ -7,33 +7,34 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shop-service-weixin" />
+        <module name="shop-portal-sso" />
         <module name="shop-common-core" />
-        <module name="shop-basics-springcloud-zuul" />
+        <module name="shop-service-pay" />
         <module name="shop-service-api-member" />
-        <module name="shop-service-spike-api" />
         <module name="shop-basics-springcloud-eureka" />
         <module name="shop-portal-cms" />
-        <module name="shop-service-order" />
         <module name="shop-service-api-order" />
         <module name="shop-service-sso-api" />
-        <module name="shop-basics-codingapi- ZipKin" />
         <module name="shop-service-member" />
         <module name="shop-service-api-search" />
+        <module name="shop-portal-web" />
         <module name="shop-service-spike" />
         <module name="shop-basics-xuxueli-xxljob" />
-        <module name="shop-service-api-weixin" />
+        <module name="shop-portal-spike" />
+        <module name="shop-entity-weixin" />
         <module name="shop-service-tem" />
         <module name="shop-portal-search" />
         <module name="shop-basics-apollo-config-server" />
         <module name="shop-service-search" />
         <module name="shop-service-api-item" />
-        <module name="shop-portal-sso" />
+        <module name="shop-service-api-weixin" />
         <module name="shop-service-sso" />
-        <module name="shop-portal-spike" />
+        <module name="shop-service-order" />
         <module name="shop-basics-codingapi-lcn" />
-        <module name="shop-service-pay" />
+        <module name="shop-basics-codingapi- ZipKin" />
         <module name="shop-service-api-pay" />
-        <module name="shop-portal-web" />
+        <module name="shop-service-spike-api" />
+        <module name="shop-basics-springcloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,6 +47,8 @@
       <module name="shop-basics-xuxueli-xxljob" target="1.8" />
       <module name="shop-common" target="1.8" />
       <module name="shop-common-core" target="1.8" />
+      <module name="shop-entity" target="1.8" />
+      <module name="shop-entity-weixin" target="1.8" />
       <module name="shop-parent" target="1.8" />
       <module name="shop-portal" target="1.8" />
       <module name="shop-portal-cms" target="1.8" />
@@ -87,6 +90,8 @@
       <module name="shop-basics-xuxueli-xxljob" options="-parameters" />
       <module name="shop-common" options="-parameters" />
       <module name="shop-common-core" options="-parameters" />
+      <module name="shop-entity" options="-parameters" />
+      <module name="shop-entity-weixin" options="-parameters" />
       <module name="shop-parent" options="-parameters" />
       <module name="shop-portal" options="-parameters" />
       <module name="shop-portal-cms" options="-parameters" />
