@@ -1,9 +1,8 @@
 package cn.cloud.shopserviceweixin.impl;
 
 import entity.Wx;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import serivce.WeiXin;
+import cn.cloud.shopserviceapiwixin.service.WeiXin;
 
 /**
  * @program: shop-parent
@@ -19,6 +18,6 @@ public class WeiXinImpl implements WeiXin {
     @Override
 
     public Wx getAll() {
-        return new Wx("大海","1235");
+        return new Wx("user","123456");
     }
 }
